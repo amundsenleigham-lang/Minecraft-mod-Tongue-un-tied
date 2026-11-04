@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "speakorlose",
+	"version": "1.2.0",
+	"name": "Speak or Lose It",
+	"description": "Pick up or craft an item and you have a few seconds to say its name out loud in another language. Mispronounce it and it's gone. Uses offline speech recognition (Vosk) and Minecraft's own translations.",
+	"authors": [
+		"Speak or Lose It contributors"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/speakorlose/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.speakorlose.SpeakOrLose"
+		],
+		"client": [
+			"dev.speakorlose.client.SpeakOrLoseClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
